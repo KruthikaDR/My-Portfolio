@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { NavMenu } from "components/NavMenu";
-import { HeroSection } from "components/HeroSection";
-import { AnimatedBackground } from "components/AnimatedBackground";
-import { AboutSection } from "components/AboutSection";
-import { SkillsSection } from "components/SkillsSection";
-import { ProjectsSection } from "components/ProjectsSection";
-import { EducationSection } from "components/EducationSection";
-import { CertificationsSection } from "components/CertificationsSection";
-import { ContactSection } from "components/ContactSection";
+import { NavMenu } from "../components/NavMenu";
+import { HeroSection } from "../components/HeroSection";
+import { AnimatedBackground } from "../components/AnimatedBackground";
+import { AboutSection } from "../components/AboutSection";
+import { SkillsSection } from "../components/SkillsSection";
+import { ProjectsSection } from "../components/ProjectsSection";
+import { EducationSection } from "../components/EducationSection";
+import { CertificationsSection } from "../components/CertificationsSection";
+import { ContactSection } from "../components/ContactSection";
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);

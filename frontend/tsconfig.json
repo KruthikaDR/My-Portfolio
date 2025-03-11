@@ -22,23 +22,11 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "brain": [
-        "./src/brain"
-      ],
-      "types": [
-        "./src/brain/data-contracts.ts"
-      ],
       "components/*": [
         "./src/components/*"
       ],
       "pages/*": [
         "./src/pages/*"
-      ],
-      "app": [
-        "./src/app"
-      ],
-      "app/auth": [
-        "./src/app/auth"
       ],
       "utils/*": [
         "./src/utils/*"
@@ -61,12 +49,7 @@
     "env.d.ts",
     "src"
   ],
-  "exclude": [
-    "src/brain/Brain.ts",
-    "src/brain/BrainRoute.ts",
-    "src/brain/data-contracts.ts",
-    "src/brain/http-client.ts"
-  ],
+  "exclude": [],
   "references": [
     {
       "path": "./tsconfig.node.json"

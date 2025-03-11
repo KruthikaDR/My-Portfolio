@@ -1,10 +1,7 @@
-import { lazy, type ReactNode, Suspense } from "react";
+import { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import { userRoutes } from "./user-routes";
-
-export const SuspenseWrapper = ({ children }: { children: ReactNode }) => {
-  return <Suspense>{children}</Suspense>;
-};
+import { SuspenseWrapper } from "./prod-components/SuspenseWrapper";
 
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage"));
 const SomethingWentWrongPage = lazy(
