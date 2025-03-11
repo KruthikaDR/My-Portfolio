@@ -1,0 +1,85 @@
+---
+title: "Kruthika D R - Portfolio"
+description: "A professional portfolio showcasing Kruthika D R's skills, projects, education, and certifications."
+author: "Kruthika D R"
+theme: "modern"
+layout: "single-page"
+---
+
+# Kruthika D R  
+
+🎓 **Master of Computer Applications (MCA) Student**  
+🚀 **Aspiring Software Developer | Full-Stack Enthusiast | Problem Solver**  
+
+📍 Bangalore, India | ✉️ kruthika.23.mcav@acharya.ac.in  
+🔗 [GitHub](https://github.com/KruthikaDR)  
+
+---
+
+## 🏆 About Me  
+I am a **results-oriented student** with a passion for **software development, cloud computing, and problem-solving**. With a solid foundation in **data structures, algorithms, and web technologies**, I am eager to contribute to innovative projects while expanding my technical expertise.
+
+---
+
+## 🔧 Skills  
+### **Technical Skills**  
+- **Cloud Computing**, **Digital Electronics**, **DBMS**, **Operating Systems**, **Software Testing**, **Web Technologies**  
+- **Data Structures & Algorithms**, **Object-Oriented Programming (Java)**  
+
+### **Programming Languages**  
+- C, Python, Java, HTML, CSS  
+
+### **Tools & Software**  
+- Eclipse, VS Code, Code Blocks, Jupyter Notebook  
+- Git, GitHub, MySQL, Oracle SQL  
+
+### **Soft Skills**  
+- Communication, Teamwork, Problem-Solving  
+
+---
+
+## 🚀 Projects  
+### **1️⃣ Clinic and Doctor Appointment System**  
+🛠 **Tech Stack:** HTML, CSS, JavaScript, React, MySQL, PHP  
+📌 **Description:** A web-based system that allows users to search for doctors and book appointments online.  
+
+### **2️⃣ Employee Management System**  
+🛠 **Tech Stack:** HTML, CSS, Java EE, MySQL  
+📌 **Description:** A dynamic web application that enables users to view, add, search, update, and delete employee records efficiently.  
+
+### **3️⃣ Product Name Mapping System**  
+🛠 **Tech Stack:** HTML, CSS, Node.js, MongoDB  
+📌 **Description:** A web-based system designed to standardize product names from supplier invoices for seamless integration into an accounting system.  
+
+---
+
+## 🎓 Education  
+📍 **Acharya Institute of Technology, Bangalore, India**  
+🎓 **Master of Computer Applications (MCA)** | **CGPA:** 7.65 | **Jan 2024 - Present**  
+
+📍 **Government Science College (Autonomous), Hassan, India**  
+🎓 **Bachelor of Computer Applications (BCA)** | **CGPA:** 7.83 | **Sept 2020 - Sept 2023**  
+
+---
+
+## 📜 Certifications  
+- 🏅 **AWS Academy - Cloud Foundations**  
+- 🏅 **Simplilearn - Introduction to Cryptography for Beginners**  
+
+---
+
+## 🎯 Interests  
+- 💻 Reading tech blogs  
+- 🏸 Playing sports (Badminton, Kho-Kho)  
+- 💃 Dancing  
+
+---
+
+## 📩 Contact Me  
+📍 **Location:** Bangalore, India  
+✉️ **Email:** [kruthika.23.mcav@acharya.ac.in](mailto:kruthika.23.mcav@acharya.ac.in)  
+🔗 **GitHub:** [github.com/KruthikaDR](https://github.com/KruthikaDR)  
+
+---
+
+
