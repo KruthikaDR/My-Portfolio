@@ -174,7 +174,7 @@ export default function App() {
         
         <section
   id="skills"
-  className="w-full min-h-screen flex flex-col items-center justify-center bg-gray-100 px-4"
+  className="w-full min-h-screen flex flex-col items-center justify-center bg-accent/5 dark:bg-accent/10 px-4"
 >
 
           <AnimatedBackground />
@@ -186,7 +186,7 @@ export default function App() {
           <ProjectsSection className="w-full" />
         </section>
         
-        <section id="education" className="w-full min-h-screen flex items-center justify-center relative bg-background px-4">
+        <section id="education" className="w-full min-h-screen flex items-center justify-center relative bg-background dark:bg-background/95 backdrop-blur-sm px-4">
           <AnimatedBackground />
           <EducationSection />
         </section>

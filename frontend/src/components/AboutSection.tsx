@@ -34,7 +34,7 @@ export function AboutSection({ className }: Props) {
   return (
     <div 
       ref={sectionRef}
-      className={cn("relative py-16 md:py-24 overflow-hidden bg-gray-100", className)}
+      className={cn("relative py-16 md:py-24 overflow-hidden bg-background", className)}
     >
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -45,7 +45,7 @@ export function AboutSection({ className }: Props) {
           )}>
             <div className="relative mx-auto max-w-md">
               {/* Main photo container */}
-              <div className="relative z-10 bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200">
+              <div className="relative z-10 bg-card rounded-xl shadow-xl overflow-hidden border border-border">
                 <div className="aspect-square overflow-hidden">
                   <img 
                     src="/aboutPic.png" 
@@ -55,8 +55,8 @@ export function AboutSection({ className }: Props) {
                 </div>
                 
                 {/* Badge overlay - education */}
-                <div className="absolute top-4 left-4 bg-gray-200 shadow-md rounded-lg py-2 px-3 border border-gray-300">
-                  <div className="text-xs font-medium text-gray-700">MCA Student</div>
+                <div className="absolute top-4 left-4 bg-muted shadow-md rounded-lg py-2 px-3 border border-border">
+                  <div className="text-xs font-medium text-foreground">MCA Student</div>
                 </div>
                 
                 {/* Badge overlay - profession */}
@@ -66,8 +66,8 @@ export function AboutSection({ className }: Props) {
               </div>
               
               {/* Decorative elements */}
-              <div className="absolute -top-6 -right-6 w-32 h-32 rounded-full bg-blue-100 -z-10 animate-float-slower"></div>
-              <div className="absolute -bottom-10 -left-10 w-40 h-40 rounded-full border border-blue-300 -z-10 animate-float-slow"></div>
+              <div className="absolute -top-6 -right-6 w-32 h-32 rounded-full bg-accent/20 -z-10 animate-float-slower"></div>
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 rounded-full border border-border -z-10 animate-float-slow"></div>
             </div>
           </div>
           
@@ -77,16 +77,16 @@ export function AboutSection({ className }: Props) {
             isInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
           )}>
             <div className="space-y-2">
-              <h2 className="text-4xl md:text-5xl font-serif font-bold relative inline-block">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold relative inline-block text-foreground">
                 About Me
-                <span className="absolute -bottom-2 left-0 right-0 h-1 bg-blue-300 -z-10 transform -rotate-1"></span>
+                <span className="absolute -bottom-2 left-0 right-0 h-1 bg-accent/30 -z-10 transform -rotate-1"></span>
               </h2>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-muted-foreground">
                 A passionate technologist with a drive for excellence
               </p>
             </div>
             
-            <div className="prose prose-lg max-w-none text-gray-800">
+            <div className="prose prose-lg max-w-none text-foreground dark:prose-invert">
               <p>
                 Hello! I'm <span className="font-medium text-blue-600">Kruthika D R</span>, an MCA student with a strong foundation in cloud computing, data structures, algorithms, and web development.
               </p>
@@ -107,17 +107,17 @@ export function AboutSection({ className }: Props) {
                 <div 
                   key={item.title}
                   className={cn(
-                    "flex items-start gap-3 p-4 rounded-xl border border-gray-300 bg-gray-50 hover:bg-white hover:shadow-sm transition-all",
+                    "flex items-start gap-3 p-4 rounded-xl border border-border bg-card hover:bg-card/80 hover:shadow-sm transition-all",
                     isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                   )}
                   style={{ transitionDelay: `${400 + index * 100}ms`, transitionDuration: "500ms" }}
                 >
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-accent/20 text-accent-foreground flex items-center justify-center">
                     ✔
                   </div>
                   <div>
-                    <h3 className="font-medium">{item.title}</h3>
-                    <p className="text-sm text-gray-600">{item.description}</p>
+                    <h3 className="font-medium text-foreground">{item.title}</h3>
+                    <p className="text-sm text-muted-foreground">{item.description}</p>
                   </div>
                 </div>
               ))}

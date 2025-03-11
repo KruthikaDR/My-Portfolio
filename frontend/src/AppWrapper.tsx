@@ -4,6 +4,7 @@ import { router } from "./router";
 import { Head } from "./internal-components/Head";
 import { ThemeProvider } from "./internal-components/ThemeProvider";
 import { DEFAULT_THEME } from "./constants/default-theme";
+import { ThemeToggle } from "./components/ThemeToggle";
 
 export const AppWrapper = () => {
 	return (
@@ -19,8 +20,9 @@ export const AppWrapper = () => {
 				}}
 			>
 				<RouterProvider router={router} />
-				<Head />
 			</ErrorBoundary>
+			<ThemeToggle />
+			<Head />
 		</ThemeProvider>
 	);
 };
